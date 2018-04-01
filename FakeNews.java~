@@ -1,0 +1,72 @@
+
+import java.util.Scanner;
+
+/**
+
+ * 3.2PP Fake News Writer
+
+ *
+
+ * @author Enning
+
+ */
+
+public class FakeNews {
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        String name; //person's name
+
+        int age;     //person's age
+
+        String country;
+
+        int turnsScore;
+
+        int airScore;
+
+        int total;
+
+      
+
+        System.out.println("The Fake News");
+
+        System.out.println();
+
+        System.out.print("Enter the person's name: ");
+
+        name = sc.nextLine();
+
+        System.out.print("Enter the person's country");
+
+        country = sc.nextLine();
+
+        System.out.print("How old is the person? ");
+
+        age = sc.nextInt();
+
+        System.out.print("What is the turnsScore? ");
+
+        turnsScore = sc.nextInt();
+
+        System.out.print("What is the airScore? ");
+
+        airScore = sc.nextInt();
+
+        System.out.print("The aggregate score:");
+        
+        int tital = turnsScore + airScore;
+        
+        System.out.print("The total score of turnsScore and airScore");
+
+        total = sc.nextInt();
+
+        
+
+    }
+
+}
+
+
